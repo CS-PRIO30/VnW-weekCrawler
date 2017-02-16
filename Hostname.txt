@@ -1,0 +1,3 @@
+http://jvns.ca/blog/2017/02/08/weird-unix-things-cd/	Julia Evans
+http://stackoverflow.com	StackOverflow
+https://github.com/CS-PRIO30/Visto-Nel-Web	Github
