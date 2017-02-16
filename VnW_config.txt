@@ -4,8 +4,9 @@
 #Python2.7 Ubuntu 16.04 64 bit
 #This is a comment. Comments start with #
 #To insert line break use \n will be replaced to <br> ok to insert html tags
+#! when you read "<..>" in this file, you have to replace with your own tokens!!!
 
-SECRET_EMAIL = xyz@post.wordpress.com
+SECRET_EMAIL = <xyz@post.wordpress.com>
 NAME_FILE_CURRENT_EDITION_VISTO_NEL_WEB = currentEdition.txt
 
 STRING_START = Settimana <b>faticosa</b>, per esempio ....\n ma ecco intanto cosa ho <b><i>Visto nel Web..</b></i>
@@ -13,11 +14,11 @@ STRING_START = Settimana <b>faticosa</b>, per esempio ....\n ma ecco intanto cos
 ENABLE_TWEET_PREVIEW = YES
 
 ENABLE_LIST_FAVORITED_TWEETS_OF_USER = NO
-USER_FAVORITED = @f_126_ck
-TWITTER_CONSUMER_KEY = n2RmTyh7DFhEezV8sTf7WuyHv
-TWITTER_CONSUMER_SECRET =  huoJoR6M1JxmifMu1VRXw2WhimDjsS33zOXBg76r3oy0pMy7hn
-TWITTER_ACCESS_TOKEN =  1418818722-ydfrfhIQzhlWdhWzYVFNQAqohXYD4lPzPrxEPfW
-TWITTER_ACCESS_TOKEN_SECRET =  MVgC874argY5GozIlhdach39vTF1IiTSEpu7JnUL79j93
+USER_FAVORITED = <Twitter Account>
+TWITTER_CONSUMER_KEY = <..>
+TWITTER_CONSUMER_SECRET =  <..>
+TWITTER_ACCESS_TOKEN =  <..>
+TWITTER_ACCESS_TOKEN_SECRET =  <..>
 
 WIDTH_PREVIEW_TWEET = 400
 ENABLE_YOUTUBE_EMBED = YES
@@ -30,6 +31,7 @@ MAX_WIDTH_IMAGE = 400
 HEIGHT_IMAGE = 250
 #MAX_WIDTH_IMAGE = 400
 
+# Output file will be generated as $NAME_FILE_OUTPUT + "-" + $current_edition + "." + $EXTENSION_FILE_OUTPUT_GENERATED
 NAME_FILE_OUTPUT = Visto-nel-Web
 EXTENSION_FILE_OUTPUT_GENERATED = HTML
 
@@ -47,5 +49,5 @@ SAVE_ALL_URL_TO_A_FILE = YES
 NAME_FILE_SAVED_URL = url
 
 #TELEGRAM PART
-ENABLE_TELEGRAM_BOT_COLLECTION = YES
-TELEGRAM_TOKEN = 328292657:AAEImciDfVYTYL8DKFcjPsWjPLXFtuuTbxY
+ENABLE_TELEGRAM_BOT_COLLECTION = NO
+TELEGRAM_TOKEN = <..>
